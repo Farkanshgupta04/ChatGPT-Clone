@@ -2,6 +2,7 @@ import React from "react";
 import { LogOut, X } from "lucide-react";
 import { useAuth } from "../context/AuthProvider";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function Sidebar({ onClose }) {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -37,7 +38,7 @@ function Sidebar({ onClose }) {
         <div className="flex border-b border-gray-600 p-2 justify-between items-center mb-4">
           <div className="text-2xl font-bold text-gray-200">Chat-GPT</div>
           <button onClick={onClose}>
-            <X className="w-6 h-6 text-gray-400 md:hidden" />
+            <X className="w-6 h-6 text-gray-400 md:hidden" />X
           </button>
         </div>
 

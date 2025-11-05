@@ -94,7 +94,7 @@ function Login() {
 
         {/* Terms & Condition */}
         <p className="text-xs text-gray-400 mt-4 mb-6">
-          By signing up or logging in, you consent to DeepSeek's{" "}
+          By signing up or logging in, you consent to ChatGPT{" "}
           <a className="underline" href="">
             Terms of Use
           </a>{" "}

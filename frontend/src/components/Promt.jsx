@@ -90,7 +90,7 @@ function Promt() {
         <div className="flex items-center justify-center gap-2">
           <img src={logo} alt="DeepSeek Logo" className="h-6 md:h-8" />
           <h1 className="text-2xl md:text-3xl font-semibold text-white mb-2">
-            Hi, I'm Chat_GPT.
+            Hi, I'm ChatGPT.
           </h1>
         </div>
         <p className="text-gray-400 text-base md:text-sm mt-2">
@@ -175,7 +175,7 @@ function Promt() {
         <div className="bg-[#2f2f2f] rounded-[2rem] px-4 md:px-6 py-6 md:py-8 shadow-md">
           <input
             type="text"
-            placeholder="💬 Message DeepSeek"
+            placeholder="💬 Type Message..."
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
