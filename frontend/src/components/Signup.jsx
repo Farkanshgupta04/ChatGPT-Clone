@@ -29,7 +29,7 @@ function Signup() {
     setError("");
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/v1/user/signup",
+        `${__API_BASE_URL__}/api/v1/user/signup`,
         {
           firstName: formData.firstName,
           lastName: formData.lastName,

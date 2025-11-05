@@ -48,7 +48,7 @@ function Promt() {
       const token = localStorage.getItem("token");
 
       const { data } = await axios.post(
-        "http://localhost:3000/api/v1/chatgpt/promt",
+        `${__API_BASE_URL__}/api/v1/chatgpt/promt`,
         { content: trimmed },
         {
           headers: {

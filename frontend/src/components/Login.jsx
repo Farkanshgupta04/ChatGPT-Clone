@@ -30,7 +30,7 @@ function Login() {
     setError("");
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/v1/user/login",
+        `${__API_BASE_URL__}/api/v1/user/login`,
         {
           email: formData.email,
           password: formData.password,
