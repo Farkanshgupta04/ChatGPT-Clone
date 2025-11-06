@@ -106,3 +106,9 @@ chat-gpt-clone/
 ```
 
 
+## Deployment
+
+- **Backend**: Deployed on Render at `https://chatgpt-clone-k2an.onrender.com`.
+- **Frontend**: Deployed on Vercel.
+
+
